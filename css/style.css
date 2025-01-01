@@ -243,7 +243,14 @@ body {
     background: none;
     border: none;
     margin-top: 26px;
-
+    margin-bottom: 32px;
 }
 
 /* other section started here  */
+
+/* culture section started here  */
+.reverse {
+    flex-direction: row-reverse;
+}
+
+/* culture section started here  */

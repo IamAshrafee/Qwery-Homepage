@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    background-color: black;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* Navbar started here */
+.navBar {
+    width: 100%;
+    padding: 28px 0px;
+    position: absolute;
+}
+
+.navItems-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navItems-wrapper .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navItems-wrapper .navItems ul li {
+    display: flex;
+    flex-direction: row;
+}
+
+.navItems-wrapper .navItems ul {
+    gap: 60px;
+}
+
+.navItems-wrapper .navItems a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all linear 0.2s;
+}
+
+.navItems-wrapper .navItems a:hover {
+    color: #000000;
+}
+
+/* Navbar ends here */
+
+/* banner started here  */
+.banner {
+    background: url(../images/background-img.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 462px 0px;
+
+}
+
+.bannerText-wrapper {}
+
+.bannerText-wrapper p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    letter-spacing: 7px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    text-transform: uppercase;
+    color: #FFC178;
+    width: 517px;
+    height: 29.22px;
+    top: 462px;
+    left: 300px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.bannerText-wrapper h1 {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    width: 970px;
+    height: 205px;
+    top: 529px;
+    left: 300px;
+    gap: 0px;
+    opacity: 0px;
+    color: #FFFFFF;
+
+
+}
+
+.bannerText-wrapper h1 span {
+    font-size: 88px;
+    font-weight: 400;
+    line-height: 100px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    display: inline-block;
+}
+
+/* banner ends here  */

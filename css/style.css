@@ -184,3 +184,66 @@ body {
 
 /* About Ends here  */
 
+/* other section started here  */
+.other {}
+
+.background-img {
+    background: url(../images/other-background.jpg) no-repeat center center;
+    background-size: cover;
+    width: 1320px;
+    height: 964.92px;
+}
+
+.otherTexts-wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.otherTexts-wrapper p {
+    width: 94px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    letter-spacing: 6px;
+    color: #FBD784;
+    text-transform: uppercase;
+
+}
+
+.otherTexts-wrapper h1 {
+    width: 932px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 87.18px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px 0px;
+
+}
+
+.otherTexts-wrapper h4 {
+    width: 893px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.otherTexts-wrapper button {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    color: #FBD784;
+    background: none;
+    border: none;
+    margin-top: 26px;
+
+}
+
+/* other section started here  */

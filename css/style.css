@@ -122,3 +122,65 @@ body {
 }
 
 /* banner ends here  */
+
+/* About started here  */
+.about {}
+
+.aboutItems-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 319px 0px;
+}
+
+.aboutItems-wrapper img {
+    width: 582px;
+    height: 713px;
+}
+
+.aboutTexts-wrapper {}
+
+.aboutTexts-wrapper p {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-align: left;
+    width: 315px;
+    color: #FBD784;
+    text-transform: uppercase;
+}
+
+.aboutTexts-wrapper h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 87.16px;
+    text-align: left;
+    width: 496px;
+    color: white;
+    text-transform: uppercase;
+    margin: 13px 0px;
+}
+
+.aboutTexts-wrapper h4 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    width: 587px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.aboutTexts-wrapper button {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    color: #FBD784;
+    background: none;
+    border: none;
+    margin-top: 66px;
+}
+
+/* About Ends here  */
+
